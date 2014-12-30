@@ -8,6 +8,7 @@ The encoder reads multiple codec2 frames and base64 encodes them into a single p
 
 To test, start the TNCs in terminal mode and
 make sure their on-air baud rates are set to 9600.
+The transmitting TNC should be in CONVERS mode.
 
 [raw input] | /path/to/c2enc 1300 - - | ./encoder.py /dev/ttyUSB0
 
